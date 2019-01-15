@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import store from "./index";
+import { store } from "./index";
 
 class Counter extends React.Component {
   render() {

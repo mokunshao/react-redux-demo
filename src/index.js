@@ -16,8 +16,7 @@ function reducer(state, action) {
   }
 }
 
-const store = createStore(reducer);
-export default store;
+export const store = createStore(reducer);
 
 function App() {
   return (
